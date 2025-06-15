@@ -48,6 +48,13 @@ source venv/bin/activate
 
 # 安装项目
 pip install .
+
+# 在 .bashrc 中添加以下内容：
+eval "$(_AG_COMPLETE=bash_source ag)"
+eval "$(_AGC_COMPLETE=bash_source agc)"
+
+# 重新加载配置
+source ~/.bashrc
 ```
 安装完成后，你将可以在终端中使用 `ag` 和 `agc` 两个命令。
 

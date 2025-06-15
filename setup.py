@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='ag-ai-tool',
-    version='2.0.0', # 我们进入一个全新的大版本！
+    version='2.0.1', # 我们进入一个全新的大版本！
     author='utmux',
     author_email='example@example.com',
     description='A powerful, pipe-aware AI assistant for your shell.',
